@@ -1,0 +1,74 @@
+✅ PART 1 — Create ONE GitHub Repository
+Go to github.com
+Login
+Click + (top right) → New repository
+Repository name:
+pathnex-practice   (or anything you want)
+Select Public
+DO NOT add README (optional)
+Click Create repository
+🎉 Your GitHub repo is ready.
+✅ PART 2 — Prepare Local Files (On Your Laptop)
+Open your terminal (or Git Bash)
+Then follow:
+Step 1 — Create project folder
+mkdir pathnex-practice
+cd pathnex-practice
+Step 2 — Create two folders
+mkdir Timings
+mkdir "Coding Practice"
+Step 3 — Create today’s file inside each folder
+Example file name:
+Day01-06-Dec-2025
+Create inside Timings:
+echo "Today’s timing log" > Timings/Day01-06-Dec-2025.txt
+Create inside Coding Practice:
+echo "My practice notes/code" > "Coding Practice/Day01-06-Dec-2025.txt"
+🎉 You now have:
+pathnex-practice/
+ ├── Timings/
+ │     └── Day01-06-Dec-2025.txt
+ └── Coding Practice/
+       └── Day01-06-Dec-2025.txt
+✅ PART 3 — Push to GitHub from Local
+Now we push everything to GitHub.
+Step 1 — Initialize Git
+git init
+Step 2 — Add the remote GitHub repo
+Copy your GitHub repo URL (HTTPS), like:
+https://github.com/your-username/pathnex-practice.git
+Then run:
+git remote add origin https://github.com/your-username/pathnex-practice.git
+Step 3 — Add all files
+git add .
+Step 4 — Commit
+git commit -m "Added Day01 files in Timings and Coding Practice"
+Step 5 — Push to GitHub
+git branch -M main
+git push -u origin main
+🎉 Congratulations — everything is now uploaded to GitHub!
+🚀 NEXT DAY (Daily Routine)
+Every new day:
+Create new file
+Example for tomorrow:
+Day02-07-Dec-2025.txt
+Inside both folders:
+echo "Log" > Timings/Day02-07-Dec-2025.txt
+echo "Practice" > "Coding Practice/Day02-07-Dec-2025.txt"
+Add → Commit → Push:
+git add .
+git commit -m "Added Day02 files"
+git push
+🎯 Summary
+You will have:
+One GitHub repo
+pathnex-practice/
+   ├── Timings/
+   │     ├── Day01-06-Dec-2025.txt
+   │     ├── Day02-07-Dec-2025.txt
+   │     └── ...
+   └── Coding Practice/
+         ├── Day01-06-Dec-2025.txt
+         ├── Day02-07-Dec-2025.txt
+         └── ...
+Daily tasks become simple.
