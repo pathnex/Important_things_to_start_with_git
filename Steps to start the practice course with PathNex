@@ -8,6 +8,8 @@ Select Public
 DO NOT add README (optional)
 Click Create repository
 🎉 Your GitHub repo is ready.
+
+
 ✅ PART 2 — Prepare Local Files (On Your Laptop)
 Open your terminal (or Git Bash)
 Then follow:
@@ -30,6 +32,8 @@ pathnex-practice/
  │     └── Day01-06-Dec-2025.txt
  └── Coding Practice/
        └── Day01-06-Dec-2025.txt
+
+
 ✅ PART 3 — Push to GitHub from Local
 Now we push everything to GitHub.
 Step 1 — Initialize Git
@@ -47,6 +51,8 @@ Step 5 — Push to GitHub
 git branch -M main
 git push -u origin main
 🎉 Congratulations — everything is now uploaded to GitHub!
+
+
 🚀 NEXT DAY (Daily Routine)
 Every new day:
 Create new file
@@ -59,6 +65,8 @@ Add → Commit → Push:
 git add .
 git commit -m "Added Day02 files"
 git push
+
+
 🎯 Summary
 You will have:
 One GitHub repo
