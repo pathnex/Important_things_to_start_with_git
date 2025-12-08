@@ -86,3 +86,7 @@ Batch_Name_Pathnex/
          ├── Day01-06-Dec-2025.txt
          ├── Day02-07-Dec-2025.txt
          └── ...
+
+
+## Note: 
+# It's better to create a new branch on daily basis --> Make and commit changes --> Push changes --> Create PR --> Merge --> Delete old branch
