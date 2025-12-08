@@ -17,7 +17,7 @@
 Open your terminal (or Git Bash), then follow:
 
 **Step 1 — Create project folder**
-```bash
+
 
 mkdir Batch_Name_Pathnex
 cd Batch_Name_Pathnex
@@ -27,8 +27,8 @@ mkdir Timings
 mkdir "Coding Practice"
 
 Step 3 — Create today’s files
-#Example file name: Day01-06-Dec-2025
-#Inside Timings:
+# Example file name: Day01-06-Dec-2025
+# Inside Timings:
 vim Timings/Day01-06-Dec-2025.txt
 
 # Inside Coding Practice:
