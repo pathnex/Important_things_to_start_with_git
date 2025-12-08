@@ -23,23 +23,23 @@ mkdir Batch_Name_Pathnex
 cd Batch_Name_Pathnex
 
 Step 2 — Create two folders
-mkdir Timings
-mkdir "Coding Practice"
+mkdir timings
+mkdir "coding practice"
 
 Step 3 — Create today’s files
 # Example file name: Day01-06-Dec-2025
-# Inside Timings:
-vim Timings/Day01-06-Dec-2025.txt
+# Inside timings:
+vim timings/Day01-06-Dec-2025.txt
 
-# Inside Coding Practice:
+# Inside coding practice:
 vim Coding\ Practice/Day01-06-Dec-2025.txt
 # Add your content and save
 
 # Folder structure:
 # Batch_Name_Pathnex/
- ├── Timings/
+ ├── timings/
  │     └── Day01-06-Dec-2025.txt
- └── Coding Practice/
+ └── coding practice/
        └── Day01-06-Dec-2025.txt
 
 
@@ -56,7 +56,7 @@ git remote add origin https://github.com/your-username/Batch_Name_Pathnex.git
 git add .
 
 # Step 4 — Commit
-git commit -m "Added Day01 files in Timings and Coding Practice"
+git commit -m "Added Day01 files in timings and coding practice"
 
 # Step 5 — Push
 git branch -M main
@@ -78,11 +78,11 @@ git push
 # You will have:
 # One GitHub repo
 Batch_Name_Pathnex/
-   ├── Timings/
+   ├── timings/
    │     ├── Day01-06-Dec-2025.txt
    │     ├── Day02-07-Dec-2025.txt
    │     └── ...
-   └── Coding Practice/
+   └── coding practice/
          ├── Day01-06-Dec-2025.txt
          ├── Day02-07-Dec-2025.txt
          └── ...
