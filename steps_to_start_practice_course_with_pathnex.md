@@ -43,6 +43,24 @@ vim Coding\ Practice/Day01-06-Dec-2025.txt
        └── Day01-06-Dec-2025.txt
 
 
+## Sample of timings file
+----------------------------------------
+----------------------------------------
+# What I did today
+# an hour - Revised Datadog
+# 30 mins coding
+# 1 hours English speaking/watching movies
+# 2 hours - 2 set question
+
+## Tomorrow's Task
+# ELK, Kafka, Terraform reviiosn
+# 1 hour coding
+# 1 hour English reading
+# 1 hour Quesion Paper
+
+----------------------------------------
+----------------------------------------
+
 # PART 3 — Push to GitHub from Local
 
 # Step 1 — Initialize Git
